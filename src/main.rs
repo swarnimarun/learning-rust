@@ -1,7 +1,13 @@
 
-mod test; // to use the file test.rs
+// creating a simple CLI tool/toy
+    // goal to make a simple cat and grep tool
 
-fn main() -> Result<(), std::io::Error> {
-    test::do_something();
-    Ok(())
+
+// things we need
+use std::env; // to get command line arguments
+use std::fs; // to read files
+
+fn main() {
+
 }
+
