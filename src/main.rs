@@ -1,7 +1,12 @@
 
-mod test; // to use the file test.rs
+// learning Rust project - simple project with sample code to learn rust
 
-fn main() -> Result<(), std::io::Error> {
-    test::do_something();
+
+// very simple main function
+
+pub type TResult<T> = Result<T, std::io::Error>;
+
+fn main() -> TResult<()> {
+    // this function is supposed to do nothing
     Ok(())
 }
