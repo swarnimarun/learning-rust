@@ -12,7 +12,7 @@ All the code here is MIT licensed so feel free to copy and learn. Credits would 
 ## Index
 |blog|link|
 |-|-|
-|learning rust: a borrow at a time| [link](/presentation/learning_rust_a_borrow_at_a_time.html)|
+|learning rust: a borrow at a time| [link](/presentation/learning_rust_a_borrow_at_a_time.md)|
 
 ## Author
 
