@@ -1,7 +1,8 @@
 [package]
-name = "learning-rust"
+name = "useless"
 version = "0.1.0"
-authors = ["Swarnim Arun <swarnimarun11@gmail.com>"]
-edition = "2018"
+edition = "2021"
 
-[dependencies]
+[[bin]]
+name = "useless"
+path = "main.rs"
